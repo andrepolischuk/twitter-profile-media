@@ -14,11 +14,11 @@ npm install --save twitter-profile-media
   You can use [twitter-tokens][twitter-tokens] to simplify getting tokens.
 
 ```js
-var twitterProfileBanner = require('twitter-profile-media');
+var twitterProfileMedia = require('twitter-profile-media');
 var twitterTokens = require('twitter-tokens');
 
-twitterProfileBanner(twitterTokens, 'jsunderhood', function (err, banners) {
-  banners; // {ipad: ..., ipad_retina: ...}
+twitterProfileMedia(twitterTokens, 'jsunderhood', function (err, media) {
+  media; // {image: '...', banner: '...'}
 });
 ```
 
