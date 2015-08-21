@@ -1,0 +1,30 @@
+{
+  "name": "twitter-profile-media",
+  "description": "Get twitter profile image and banner",
+  "version": "0.0.0",
+  "keywords": [
+    "twitter",
+    "user",
+    "profile",
+    "image",
+    "banner"
+  ],
+  "repository": "andrepolischuk/twitter-profile-media",
+  "dependencies": {
+    "twitter": "^1.2.5"
+  },
+  "devDependencies": {
+    "babel": "^5.5.6",
+    "tape": "^4.2.0",
+    "twitter-tokens": "^1.0.1"
+  },
+  "main": "index.es5.js",
+  "scripts": {
+    "test": "babel-node test.js",
+    "transpile": "babel --stage 0 index.js > index.es5.js",
+    "prepublish": "npm run transpile",
+    "postpublish": "rm -rf *.es5.js"
+  },
+  "author": "Andrey Polischuk <andre.polischuk@gmail.com>",
+  "license": "MIT"
+}
