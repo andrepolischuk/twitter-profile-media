@@ -1,6 +1,6 @@
 # twitter-profile-media [![Build Status][travis-image]][travis-url]
 
-  > Get twitter profile image and banner
+> Get twitter profile image and banner
 
 ## Install
 
@@ -26,7 +26,7 @@ media(tokens, 'twitter', (err, {image, banner}) => {
 
 ## License
 
-  MIT
+MIT
 
 [travis-url]: https://travis-ci.org/andrepolischuk/twitter-profile-media
 [travis-image]: https://travis-ci.org/andrepolischuk/twitter-profile-media.svg?branch=master
