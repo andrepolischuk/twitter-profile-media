@@ -14,8 +14,8 @@ You will need valid [twitter tokens (dev credentials)][twitter-apps].
 You can use [twitter-tokens][twitter-tokens] to simplify getting tokens.
 
 ```js
-const media from 'twitter-profile-media';
-const tokens from 'twitter-tokens';
+import media from 'twitter-profile-media';
+import tokens from 'twitter-tokens';
 
 media(tokens, 'twitter', (err, {image, banner}) => {
   if (err) throw err;
