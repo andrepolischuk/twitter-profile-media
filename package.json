@@ -11,7 +11,7 @@
   ],
   "repository": "andrepolischuk/twitter-profile-media",
   "dependencies": {
-    "twitter": "^1.2.5"
+    "get-twitter-info": "^1.0.5"
   },
   "devDependencies": {
     "babel": "^5.5.6",
