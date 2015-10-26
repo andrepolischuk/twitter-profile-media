@@ -14,7 +14,7 @@
     "get-twitter-info": "^1.0.5"
   },
   "devDependencies": {
-    "ava": "^0.3.0",
+    "ava": "^0.2.0",
     "babel": "^5.5.6",
     "twitter-tokens": "^1.0.1"
   },
