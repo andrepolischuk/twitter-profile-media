@@ -17,12 +17,17 @@ You can use [twitter-tokens][twitter-tokens] to simplify getting tokens.
 import media from 'twitter-profile-media';
 import tokens from 'twitter-tokens';
 
-media(tokens, 'twitter', (err, {image, banner}) => {
-  if (err) throw err;
+media(tokens, 'twitter').then({image, banner}) => {
   image;  // https://pbs.twimg.com/profile_images/615680132565504000/EIpgSD2K.png
   banner; // https://pbs.twimg.com/profile_banners/783214/1436401887
 });
 ```
+
+## API
+
+### media(tokens, username)
+
+Return a promise that resolves to user profile image and banner.
 
 ## License
 
