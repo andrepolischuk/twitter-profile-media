@@ -25,7 +25,7 @@
     "pretest": "npm run prepublish",
     "test": "ava",
     "prepublish": "babel --presets es2015 index.js --out-file index.es5.js",
-    "postpublish": "rm -rf *.es5.js"
+    "postpublish": "rm -rf *.es5.js && git push --follow-tags"
   },
   "author": "Andrey Polischuk <andre.polischuk@gmail.com>",
   "license": "MIT"
