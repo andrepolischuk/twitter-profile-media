@@ -10,9 +10,6 @@ npm install --save twitter-profile-media
 
 ## Usage
 
-You will need valid [twitter tokens (dev credentials)][twitter-apps].
-You can use [twitter-tokens][twitter-tokens] to simplify getting tokens.
-
 ```js
 import media from 'twitter-profile-media';
 import tokens from 'twitter-tokens';
@@ -28,6 +25,19 @@ media(tokens, 'twitter').then({image, banner}) => {
 ### media(tokens, username)
 
 Return a promise that resolves to user profile image and banner.
+
+#### tokens
+
+Type: `object`
+
+Valid [twitter tokens (dev credentials)][twitter-apps].
+You can use [twitter-tokens][twitter-tokens] to simplify getting tokens.
+
+#### username
+
+Type: `string`
+
+Twitter username.
 
 ## License
 
