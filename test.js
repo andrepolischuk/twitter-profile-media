@@ -1,6 +1,6 @@
 import test from 'ava';
 import tokens from 'twitter-tokens';
-import media from './index.es5';
+import media from './index';
 
 test('get image and banner', async t => {
   const {image, banner} = await media(tokens, 'twitter');
