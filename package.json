@@ -11,8 +11,7 @@
   ],
   "repository": "andrepolischuk/twitter-profile-media",
   "dependencies": {
-    "get-twitter-info": "^1.0.5",
-    "pinkie-promise": "^2.0.0"
+    "get-twitter-info": "^2.0.1"
   },
   "devDependencies": {
     "ava": "^0.9.1",
