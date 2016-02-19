@@ -23,6 +23,9 @@
     "twitter-tokens": "^1.0.1"
   },
   "main": "index.es5.js",
+  "files": [
+    "index.es5.js"
+  ],
   "scripts": {
     "test": "ava --require babel-register",
     "prepublish": "babel index.js --out-file index.es5.js",
