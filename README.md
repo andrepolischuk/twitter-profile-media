@@ -39,6 +39,16 @@ Type: `string`
 
 Twitter username.
 
+## Related
+
+* [get-tweets][get-tweets] — get latest tweets
+* [get-twitter-info][get-twitter-info] — get info about target username
+* [get-twitter-followers][get-twitter-followers] — get followers for target username
+* [tweet-links][tweet-links] — extract links from tweet
+* [tweets-stats][tweets-stats] — get statistics from array of tweets
+* [twitter-mentions][twitter-mentions] — get latest mentions for target username
+* [twitter-tokens][twitter-tokens] — get twitter tokens
+
 ## License
 
 MIT
@@ -48,3 +58,11 @@ MIT
 
 [twitter-apps]: https://apps.twitter.com
 [twitter-tokens]: https://www.npmjs.com/package/twitter-tokens
+
+[get-tweets]: https://github.com/iamstarkov/get-tweets
+[get-twitter-info]: https://github.com/iamstarkov/get-twitter-info
+[get-twitter-followers]: https://github.com/iamstarkov/get-twitter-followers
+[tweet-links]: https://github.com/iamstarkov/tweet-links
+[tweets-stats]: https://github.com/iamstarkov/tweets-stats
+[twitter-mentions]: https://github.com/iamstarkov/twitter-mentions
+[twitter-tokens]: https://github.com/iamstarkov/twitter-tokens
