@@ -14,7 +14,7 @@ npm install --save twitter-profile-media
 import media from 'twitter-profile-media';
 import tokens from 'twitter-tokens';
 
-media(tokens, 'twitter').then({image, banner}) => {
+media(tokens, 'twitter').then(({ image, banner }) => {
   image;  // https://pbs.twimg.com/profile_images/615680132565504000/EIpgSD2K.png
   banner; // https://pbs.twimg.com/profile_banners/783214/1436401887
 });
