@@ -1,7 +1,22 @@
 {
   "name": "twitter-profile-media",
-  "description": "Get twitter profile image and banner",
   "version": "2.0.4",
+  "description": "Get twitter profile image and banner",
+  "main": "index.es5.js",
+  "jsnext:main": "index.js",
+  "files": [
+    "index.js",
+    "index.es5.js"
+  ],
+  "scripts": {
+    "test": "ava --require babel-register",
+    "prepublish": "babel index.js --out-file index.es5.js",
+    "postpublish": "rimraf index.es5.js && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrepolischuk/twitter-profile-media.git"
+  },
   "keywords": [
     "twitter",
     "user",
@@ -9,7 +24,12 @@
     "image",
     "banner"
   ],
-  "repository": "andrepolischuk/twitter-profile-media",
+  "author": "Andrey Polischuk <andre.polischuk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrepolischuk/twitter-profile-media/issues"
+  },
+  "homepage": "https://github.com/andrepolischuk/twitter-profile-media",
   "dependencies": {
     "get-twitter-info": "^2.0.2"
   },
@@ -21,16 +41,5 @@
     "babel-register": "^6.9.0",
     "rimraf": "^2.5.2",
     "twitter-tokens": "^1.0.3"
-  },
-  "main": "index.es5.js",
-  "files": [
-    "index.es5.js"
-  ],
-  "scripts": {
-    "test": "ava --require babel-register",
-    "prepublish": "babel index.js --out-file index.es5.js",
-    "postpublish": "rimraf index.es5.js && git push --follow-tags"
-  },
-  "author": "Andrey Polischuk <andre.polischuk@gmail.com>",
-  "license": "MIT"
+  }
 }
