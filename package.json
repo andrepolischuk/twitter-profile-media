@@ -1,6 +1,6 @@
 {
   "name": "twitter-profile-media",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Get twitter profile image and banner",
   "main": "index.es5.js",
   "jsnext:main": "index.js",
